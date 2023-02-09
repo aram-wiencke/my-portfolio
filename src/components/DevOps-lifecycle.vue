@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <h1>DevOps Lifecycle</h1>
-    <div class="lifecycle">
+  <div class="infinity-container">
+    <div class="infinity-loop">
       <div class="phase">
         <h2>Plan</h2>
         <p>Define goals, requirements, and strategies for the project.</p>
@@ -35,15 +34,24 @@
 </template>
 
 <style>
-.lifecycle {
+.infinity-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.infinity-loop {
+  width: 80%;
+  height: 80%;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 20px 0;
+  justify-content: space-around;
 }
 
 .phase {
-  width: 20%;
+  width: 100%;
   text-align: center;
 }
 </style>
