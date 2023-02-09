@@ -23,4 +23,5 @@ jobs:
       with:
         BRANCH: gh-pages
         FOLDER: dist
-        REPOSITORY_NAME: aram-wiencke/aram-wiencke.github.io
+        token: ${{ secrets.token }}
+        repository-name: aram-wiencke/aram-wiencke.github.io
